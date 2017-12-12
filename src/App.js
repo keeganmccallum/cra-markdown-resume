@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import ReactMarkdown from 'react-markdown';
 
@@ -7,16 +6,16 @@ const markdown = `
 KEEGAN MCCALLUM | DATA ANALYST / WEB DEVELOPER
 ---------------------------
 
-        85 Queens Wharf Rd, Toronto, ON M5V 0J9 | (416) 799-4203
+        57 Lake Promenade, Toronto, ON M8W 1A1 | (416) 799-4203
         keeganmccallum3@gmail.com | http://github.com/keeganmccallum
 
 PROFILE
 -------
 
-- 3 years of financial industry experience focusing on data analytics, optimisation,
+- 3+ years of financial industry experience focusing on data analytics, optimisation,
   and large-scale data processing.
 
-- 3 years experience in software development, focusing mostly on full stack web development,
+- 4 years experience in software development, focusing mostly on full stack web development,
   mobile application development, and data science.
 
 - designed, built and manged product development of multiple high impact, production-scale applications
@@ -31,13 +30,14 @@ SKILLS
 
 - **Fullstack Web Development**: | React | Redux | D3 | Plotly | Matplotlib | HandsonGrid | Jquery | Dojo | ES2016
   | AngularJS | NodeJS | Django | Flask | SailsJS | Socket.io | Deepstream.io | Pouch/CounchDB | Loopback | FeathersJS |
+  | emotion(CSS-in-JS) | PWA | ServiceWorkers | SEO | claudiajs | Zappa | NextJS | AWS |
 
-- **Mobile Development**: | Android(Java) | iOS(Objective-C) | React Native | Cordova | Realm.io | Parse |
+- **Mobile Development**: | Android(Java) | iOS(Objective-C) | React Native | Cordova | Parse |
 
 - **Data Analytics**: | Pandas | Numpy | GLPK | Gurobi | Apach Spark | Hadoop | PostGreSQL | SQL Server | MariaDB
   | MongoDB | SQLite |
 
-- **Machine Learning**: | Keras/Tensorflow | Magenta | LSTM | CNN | Spacy | NLTK |
+- **Machine Learning**: | Keras/Tensorflow | Magenta | LSTM | CNN | Spacy | NLTK | XGBoost |
 
 - **Financial Management**: | Fixed Income Portfolio Management | Quantitative Finance | Linear Optimization
   | Statistics |
@@ -45,7 +45,43 @@ SKILLS
 WORK
 -------
 
-#### Portfolio Analytics Specialist | TD Asset Management (Jan. 2014 - Present)
+#### CTO | Grizzle (July 2017 - Present)
+
+- managed, designed and implemented entire tech infrastuture as sole technical founder at a funded startup
+
+    - Website Frontend:
+
+        - Responsive site built using next.js, react, rebass, redux, emotion
+
+        - Fully tested using storybooks as a base, jest snapshots and jest image snapshots for regression testing
+
+        - PWA using service workers, all best practices from Google's lighthouse followed
+
+        - Implemented SEO best practices such as structured data, social graph metatags, canonical URLS
+
+    - Website Backend:
+
+      - built using FeathersJS, PostgreSQL, and claudiajs(for deployment on AWS Lambda)
+
+      - RESTFUL API which supports publishing articles from Superdesk, API key authentication, full text search with indices on all articles
+
+    - CMS:
+
+        - Setup and customized the opens source project Superdesk for our needs
+
+        - comfortable forking/modifying open source code
+
+    - Dev-ops:
+
+        - Setup all deployments to be fully automated using GitLab CI, including automated tests
+
+        - Setup custom docker deployments using docker compose, all with automated HTTPS encryption via letsencrypt, nginx as a reverse proxy
+
+        - Managed deployments of Mautic(marketing automation), Metabase(business intelligence) and Superdesk(CMS)
+
+        - Managed infrastuture on AWS as code using Terraform
+
+#### Portfolio Analytics Specialist | TD Asset Management (Jan. 2014 - July 2017)
 
 - Trade Blotter:
 
@@ -114,7 +150,6 @@ EDUCATION
 - **Bachelors of Computing** | Queens University (Graduated April 2016)
 
 - **Bachelors of Accounting and Financial Management** | University of Waterloo (left program after 3rd year)
-
 
 `;
 
