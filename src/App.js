@@ -2,21 +2,25 @@ import React, { Component } from 'react';
 import './App.css';
 import ReactMarkdown from 'react-markdown';
 
-const markdown = `
-KEEGAN MCCALLUM | DATA ANALYST / WEB DEVELOPER
+const markdown = ` 
+KEEGAN MCCALLUM | ENTREPRENEUR / FULLSTACK DEVELOPER /  DATA ANALYST / SOFTWARE ARCHITECT
 ---------------------------
 
-        57 Lake Promenade, Toronto, ON M8W 1A1 | (416) 799-4203
+        83 Saghalie Rd, Victoria, BC V9A 0B8 | (416) 799-4203
         keeganmccallum3@gmail.com | http://github.com/keeganmccallum
 
 PROFILE
 -------
 
-- 3+ years of financial industry experience focusing on data analytics, optimisation,
+- 3 years of financial industry experience focusing on data analytics, optimisation,
   and large-scale data processing.
 
-- 4 years experience in software development, focusing mostly on full stack web development,
+- 5 years experience in software development, focusing mostly on full stack web development,
   mobile application development, and data science.
+
+- 1 year experience in engineering/product management
+
+- Managed a team of 5 developers on multiple mission-critical projects
 
 - designed, built and manged product development of multiple high impact, production-scale applications
 
@@ -28,16 +32,25 @@ PROFILE
 SKILLS
 -------
 
+- **Languages**: Python | Javascript | Java | PHP | C/C++ | BASH | YAML | HTML/CSS | Objective-C | Haskell | Prolog | ARM Assembly 
+
 - **Fullstack Web Development**: | React | Redux | D3 | Plotly | Matplotlib | HandsonGrid | Jquery | Dojo | ES2016
-  | AngularJS | NodeJS | Django | Flask | SailsJS | Socket.io | Deepstream.io | Pouch/CounchDB | Loopback | FeathersJS |
-  | emotion(CSS-in-JS) | PWA | ServiceWorkers | SEO | claudiajs | Zappa | NextJS | AWS |
+  | AngularJS | NodeJS | Django | Flask | SailsJS | Socket.io | Deepstream.io | Pouch/CounchDB | Loopback | FeathersJS 
+  | styled-components/emotion | PWA | ServiceWorkers | SEO | claudiajs | Zappa | NextJS | Postgrest | Material-UI | Redis 
+  | Memcached/MCRouter | PushPin | Leaflet/Mapbox
+
+- **Cloud SaaS Architecture**: Kubernetes | AWS | Google Cloud | Docker | Helm | Prometheus | Kong | Keycloak 
+  | Serverless Framework | Kubeless | Fission | Google Cloud Functions | KillBill | Drone CI/CD | 
+
+- **Data Analytics**: | Pandas | Numpy | GLPK | Gurobi | Apache Spark | Hadoop | PostGreSQL | SQL Server | MariaDB
+  | MongoDB | SQLite | TimescaleDB | Redash | Kafka | Elasticsearch | Cassandra | Apache Flink | 
+
+- **Machine Learning**: | Keras/Tensorflow | Magenta | LSTM | CNN | Spacy | NLTK | XGBoost |
 
 - **Mobile Development**: | Android(Java) | iOS(Objective-C) | React Native | Cordova | Parse |
 
-- **Data Analytics**: | Pandas | Numpy | GLPK | Gurobi | Apach Spark | Hadoop | PostGreSQL | SQL Server | MariaDB
-  | MongoDB | SQLite |
-
-- **Machine Learning**: | Keras/Tensorflow | Magenta | LSTM | CNN | Spacy | NLTK | XGBoost |
+- **Network Engineering**: | FreeRadius | Icinga/Nagios | Device Monitoring | IOT | Wireless Failover 
+  | DNS Security | Guest Wifi | CNA Browser | Captive Portal
 
 - **Financial Management**: | Fixed Income Portfolio Management | Quantitative Finance | Linear Optimization
   | Statistics |
@@ -45,7 +58,11 @@ SKILLS
 WORK
 -------
 
-#### CTO | Grizzle (July 2017 - Present)
+#### Full Stack Developer | Colony Networks (January 2018 - Novemeber 2018)
+#### Head of Engineering | Colony Networks (Novemeber 2018 - Present)
+
+
+#### CTO | Grizzle (July 2017 - December 2017)
 
 - managed, designed and implemented entire tech infrastuture as sole technical founder at a funded startup
 
